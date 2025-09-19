@@ -3,3 +3,7 @@
 @import './styles/normalize.css';
 @import './styles/global/utility.css';
 @import './styles/components/container.css';
+* {
+  margin: 0;
+  padding: 0;
+}

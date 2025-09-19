@@ -1,6 +1,31 @@
 .header__container {
-  padding: 18px 361px;
-  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
   height: 58px;
   background: #181818;
+  margin: 0px;
+}
+
+.header-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 340px;
+}
+
+.header-text {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-communities {
+  margin: 0;
+  display: flex;
+  gap: 25px;
 }
